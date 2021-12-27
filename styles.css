@@ -1,3 +1,4 @@
+/* Apply to all */
 * {
     box-sizing: border-box;
 }
@@ -6,10 +7,20 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Navbar */
 .navbar .navbar-brand {
     font-weight: 400;
 }
 
 .navbar ul {
     margin-left: auto;
+}
+
+/* Project page */
+.project {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #F2F2F2;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
 }
