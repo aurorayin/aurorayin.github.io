@@ -7,6 +7,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    background-color: #FFD32D;
+}
+
+section {
+    margin-top: 1rem;
+}
+
 /* Navbar */
 .navbar .navbar-brand {
     font-weight: 400;
@@ -16,7 +24,7 @@ body {
     margin-left: auto;
 }
 
-/* Project page */
+/* Project */
 .project {
     margin-top: 2rem;
     padding: 1rem;
