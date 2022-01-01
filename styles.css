@@ -12,7 +12,11 @@ header {
 }
 
 section {
-    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+h2 {
+    text-decoration: wavy underline #2196aa;
 }
 
 /* Navbar */
@@ -24,11 +28,48 @@ section {
     margin-left: auto;
 }
 
+/* the introduction section */
+#home, #contact {
+    background-color: #fffdf6;
+}
+
+#home img {
+    border-radius: 50%;
+}
+
 /* Project */
 .project {
     margin-top: 2rem;
     padding: 1rem;
-    border: 1px solid #F2F2F2;
+    border: 1px solid #FFD32D;
     border-radius: 0.5rem;
-    background-color: #ffffff;
+}
+
+.btn-warning {
+    background-color: #ffd32d;
+}
+
+.btn-outline-dark {
+    color: #2196aa;
+    border-color: #2196aa;
+}
+
+.inner-div {
+    padding: 2rem 1rem;
+    border: #FFD32D dashed;
+    border-radius: 10% 30% 70% 50%;
+}
+
+.project h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+    text-decoration: #bddfd1 underline;
+
+}
+
+/* Footer */
+footer {
+    color:white;
+    background-color: #2196aa;
+    margin-bottom: 0;
 }
